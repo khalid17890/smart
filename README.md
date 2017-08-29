@@ -5,7 +5,7 @@ The published messages arriving at the broker processing is based on rules engin
 Instead of the normal message forwarding the broker is able to perform actions like averaging the temperature, and that averaged temp should be highlighted on the subscribed clients).
 The rules(to average) should be changed through web interface, where a track record of incoming messages are kept.
 
-Sorting of sensors values and types in database is done with the help of payload which could be in JSON format.
+Sorting of sensors values is done with the help of payload which could be in JSON format.
 The payload in JSON format from temp sensor {"d":{"CPUTemp":24.546}​} and the from the payload it is identified what type of sensor is that (can include ID in the payload as well).
 
 --- mqtt topics
