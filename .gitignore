@@ -1,0 +1,7 @@
+*~
+*.pyc
+*.o
+backend/aggregator
+backend/rtc_sensor
+backend/core
+
